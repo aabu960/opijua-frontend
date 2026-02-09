@@ -7,7 +7,7 @@ import D2 from "../assets/D8.jpg";
 import D3 from "../assets/Dm.jpg";
 import L1 from "../assets/LOCATION.png";
 import Dm from "../assets/delivery.jpg";
-import sfl from "../assets/sfl.png"
+import sfl from "../assets/Sfl.png"
 import Van from "../assets/van.jpg";
 import YImg from "../assets/y.jpg";
 import Hero from "./Hero";
