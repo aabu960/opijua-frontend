@@ -7,6 +7,9 @@ import D2 from "../assets/D8.jpg";
 import D3 from "../assets/Dm.jpg";
 import L1 from "../assets/LOCATION.png";
 import Dm from "../assets/delivery.jpg";
+import sfl from "../assets/sfl.png"
+import Van from "../assets/van.jpg";
+import YImg from "../assets/y.jpg";
 import Hero from "./Hero";
 
 const Home = () => {
@@ -71,17 +74,17 @@ const Home = () => {
         {
           title: "Local Delivery",
           description: "Fast and secure delivery within Tamale with same-day service.",
-          img: "../src/assets/delivery.jpg", // small thumbnail image
+          img:Dm, // small thumbnail image
         },
         {
           title: "Inter-City Delivery",
           description: "We deliver packages outside Tamale to nearby towns and cities.",
-          img: "../src/assets/van.jpg",
+          img:Van,
         },
         {
           title: "Business Logistics",
           description: "Dedicated delivery solutions for shops, vendors, and companies.",
-          img: "../src/assets/y.jpg",
+          img: YImg,
         },
       ].map((service, i) => (
         <div
@@ -282,10 +285,10 @@ const Home = () => {
     <div className="overflow-hidden relative">
       <div className="flex gap-10 animate-marquee whitespace-nowrap">
         {[
-          " ../src/assets/LOGO.png",
+          " ../src/assets/sfl.png",
            "../src/assets/LOGO.png",
-           "../src/assets/LOGO.png",
-          "../src/assets/LOGO.png",
+           "../src/assets/sfl.png",
+          "../src/assets/sfl.png",
            "../src/assets/LOGO.png",
         ].map((logo, i) => (
           <img
@@ -337,8 +340,8 @@ const Home = () => {
 
       {[
         { name: "Abubakari Opijua Wumbei", role: "CEO/Founder & Operations Lead", img: "../src/assets/LOGO.png" },
-        { name: "Abdulai Oluu", role: "Software Engineer & Platform Manager", img: "../src/assets/LOGO.png" },
-        { name: "Logistics Manager", role: "Delivery Operations", img: "../src/assets/LOGO.png" },
+        { name: "Abdulai Oluu", role: "Software Engineer & Platform Manager", img: "../assets/LOGO.png" },
+      
       ].map((member, i) => (
         <div
           key={i}
