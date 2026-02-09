@@ -285,10 +285,10 @@ const Home = () => {
     <div className="overflow-hidden relative">
       <div className="flex gap-10 animate-marquee whitespace-nowrap">
         {[
-          " ../src/assets/sfl.png",
+          " ../src/assets/Sfl.png",
            "../src/assets/LOGO.png",
-           "../src/assets/sfl.png",
-          "../src/assets/sfl.png",
+           "../src/assets/Sfl.png",
+          "../src/assets/Sfl.png",
            "../src/assets/LOGO.png",
         ].map((logo, i) => (
           <img
